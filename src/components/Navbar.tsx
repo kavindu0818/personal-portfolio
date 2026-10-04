@@ -31,7 +31,7 @@ export function Navbar() {
     >
       <nav className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#home" className="font-display font-bold text-xl tracking-tight">
-          <span className="gradient-text">dev</span>.folio
+          <span className="gradient-text">kavindu</span>.dev
         </a>
         <div className="hidden md:flex items-center gap-8">
           {links.map((l) => (

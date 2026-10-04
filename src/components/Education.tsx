@@ -20,39 +20,31 @@ const educationList: EducationItem[] = [
     location: "Colombo, Sri Lanka",
     status: "Undergraduate • Final Year",
     description:
-      "Focused on advanced software engineering principles, full-stack application architectures, database design, and distributed systems. Actively engaging in team projects, industry-standard development workflows, and research.",
-    // achievements: [
-    //   "Specialized in Software Architecture & Modern Web Technologies",
-    //   "Dean's List recognition for academic excellence",
-    // ],
+      "Reading for a BSc (Hons) in Computer Science specializing in Software Engineering. Focused on advanced software design, distributed architectures, intelligent systems, data structures, and industry-standard research methodologies.",
     coursework: [
+      "Advanced Software Engineering",
+      "Distributed & Cloud Systems",
       "Data Structures & Algorithms",
-      "Software Architecture & Design",
-      "Database Management Systems",
-      "Object-Oriented Programming (Java/C++)",
-      "Web Application Development",
-      "Cloud Computing & DevOps",
+      "Database Systems & Big Data",
+      "Cybersecurity & Secure Systems",
+      "Research Methods & Dissertation",
     ],
   },
-   {
+  {
     degree: "Higher Diploma in Software Engineering",
     institution: "Institute of Software Engineering - IJSE",
     period: "2023 — 2025",
     location: "Colombo, Sri Lanka",
     status: "Successfully Completed",
     description:
-      "Focused on advanced software engineering principles, full-stack application architectures, database design, and distributed systems. Actively engaging in team projects, industry-standard development workflows, and research.",
-    // achievements: [
-    //   "Specialized in Software Architecture & Modern Web Technologies",
-    //   "Dean's List recognition for academic excellence",
-    // ],
+      "Intensive hands-on professional software engineering curriculum focused on enterprise application development, layered architecture, OOP principles, RESTful microservices, and modern frontend/backend integration.",
     coursework: [
-      "Data Structures & Algorithms",
-      "Software Architecture & Design",
-      "Database Management Systems",
-      "Object-Oriented Programming (Java/C++)",
-      "Web Application Development",
-      "Cloud Computing & DevOps",
+      "Enterprise Java & Spring Boot",
+      "Layered Architecture & MVC",
+      "Object-Oriented Programming (OOP)",
+      "Full-Stack Web Development",
+      "Advanced DBMS & SQL",
+      "RESTful API Development & Testing",
     ],
   },
   {
@@ -62,11 +54,7 @@ const educationList: EducationItem[] = [
     location: "Sri Lanka",
     status: "Successfully Completed",
     description:
-      "Completed secondary education with an intensive focus on Combined Mathematics, Physics, and Chemistry. Built a solid analytical and problem-solving foundation.",
-    // achievements: [
-    //   "Member of the Science and ICT Societies",
-    //   "Participated in inter-school programming competitions",
-    // ],
+      "Completed secondary education in the Physical Science stream with an intensive focus on Combined Mathematics, Physics, and Chemistry, establishing strong quantitative, logical, and analytical foundations.",
     coursework: [
       "Combined Mathematics",
       "Physics",

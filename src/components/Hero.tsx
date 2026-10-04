@@ -86,9 +86,9 @@ export function Hero() {
           style={{ animationDelay: "0.8s" }}
         >
           {[
-            { Icon: Github, href: "https://github.com", label: "GitHub" },
-            { Icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-            { Icon: Mail, href: "mailto:hello@example.com", label: "Email" },
+            { Icon: Github, href: "https://github.com/kavindu0818", label: "GitHub" },
+            { Icon: Linkedin, href: "https://www.linkedin.com/in/kavindu-madhuranga-67938125a/", label: "LinkedIn" },
+            { Icon: Mail, href: "mailto:kavindu.wijerathna818@gmail.com", label: "Email" },
           ].map(({ Icon, href, label }) => (
             <a
               key={label}

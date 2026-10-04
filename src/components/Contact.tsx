@@ -12,7 +12,7 @@ const schema = z.object({
   message: z.string().trim().min(10, "Message must be at least 10 characters").max(2000),
 });
 
-const RECIPIENT = "hello@example.com";
+const RECIPIENT = "kavindu.wijerathna818@gmail.com";
 
 export function Contact() {
   const [submitting, setSubmitting] = useState(false);
@@ -99,7 +99,7 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="text-xs font-mono text-muted-foreground">Based in</p>
-                  <p className="text-sm font-medium">Remote — Worldwide</p>
+                  <p className="text-sm font-medium">Remote / Onsite</p>
                 </div>
               </div>
             </div>
@@ -108,9 +108,9 @@ export function Contact() {
               <p className="text-xs font-mono text-muted-foreground mb-3">Find me on</p>
               <div className="flex gap-2">
                 {[
-                  { Icon: Github, href: "https://github.com", label: "GitHub" },
-                  { Icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-                  { Icon: Twitter, href: "https://twitter.com", label: "Twitter" },
+                  { Icon: Github, href: "https://github.com/kavindu0818", label: "GitHub" },
+                  { Icon: Linkedin, href: "https://www.linkedin.com/in/kavindu-madhuranga-67938125a/", label: "LinkedIn" },
+                  // { Icon: Twitter, href: "https://twitter.com", label: "Twitter" },
                 ].map(({ Icon, href, label }) => (
                   <a
                     key={label}
@@ -133,12 +133,12 @@ export function Contact() {
               className="p-8 rounded-2xl border border-border bg-card space-y-5 hover-lift"
             >
             <div className="grid sm:grid-cols-2 gap-5">
-              <Field name="name" label="Your name" placeholder="Jane Doe" error={errors.name} />
+              <Field name="name" label="Your name" placeholder="name" error={errors.name} />
               <Field
                 name="email"
                 label="Email address"
                 type="email"
-                placeholder="jane@company.com"
+                placeholder="abcd@company.com"
                 error={errors.email}
               />
             </div>
@@ -184,7 +184,7 @@ export function Contact() {
         </div>
 
         <footer className="mt-24 pt-8 border-t border-border text-center text-sm text-muted-foreground">
-          © {new Date().getFullYear()} Alex Carter. Crafted with care.
+          © {new Date().getFullYear()} Kavindu Wijerathna. Crafted with care.
         </footer>
       </div>
     </section>
