@@ -72,8 +72,8 @@ export function Hero() {
             Get in touch
           </a>
           <a
-            href="/alex-carter-cv.pdf"
-            download
+            href="/Kavindu_Wijerathna_CV.pdf"
+            download="Kavindu Wijerathna CV.pdf"
             className="group inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border bg-card hover:bg-accent font-medium transition-smooth hover:-translate-y-0.5"
           >
             <Download className="h-4 w-4 group-hover:translate-y-0.5 transition-smooth" />

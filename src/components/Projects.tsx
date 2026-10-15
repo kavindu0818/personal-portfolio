@@ -57,12 +57,32 @@ const projects: Project[] = [
     href: "#",
   },
   {
+    title: "Smart Crop Protection System Against Animal Intrusion",
+    category: "personal",
+    badge: "AI & Full-Stack",
+    description:
+      "An AI-powered full-stack platform for detecting and deterring crop-raiding animals in real time using computer vision, zone-aware alerts, and automated Arduino-based deterrent responses.",
+    highlights: [
+      "Fine-tuned an AI model using a custom dataset of 2,500 annotated images to detect birds, cows, elephants, monkeys, and wild boars, achieving 85.24% accuracy on a held-out test set.",
+      "Implemented zone-aware animal detection using OpenCV to classify detections based on their position relative to protected crop areas and support early warnings.",
+      "Developed a full-stack monitoring platform using React.js, TypeScript, Spring Boot, and MySQL, with real-time alerts, camera and zone management, and detection history.",
+      "Integrated Arduino serial communication and MQTT to trigger automated deterrent responses based on detected animal species.",
+    ],
+    tags: ["Python", "FastAPI", "PyTorch", "OpenCV", "Java 21", "Spring Boot", "Spring Security", "JWT", "MySQL", "React.js", "TypeScript", "Tailwind CSS", "MQTT", "WebSocket", "Arduino"],
+    href: "#",
+  },
+  {
     title: "Car Rental Management System",
     category: "personal",
     badge: "Full-Stack System",
     description:
-      "A comprehensive car rental system built with React.js, Spring Boot, JWT, Hibernate ORM, and MySQL for managing cars, customers, bookings, and reservations with secure authentication and efficient data handling.",
-    tags: ["React.js", "Spring Boot", "JWT", "Hibernate", "MySQL"],
+      "A full-stack car rental platform covering car inventory, customer details, bookings, and payments — with a public rental website and a POS admin interface.",
+    highlights: [
+      "Developed a full-stack car rental platform covering car inventory, customer details, bookings, and payments, with a public rental website and a POS admin interface.",
+      "Built secure Spring Boot REST APIs with Spring Security and JWT for authentication and role-based access, using Hibernate/JPA for MySQL persistence.",
+      "Created responsive React.js and TypeScript frontends styled with Tailwind CSS, integrated via Axios for real-time CRUD operations on cars, bookings, and customers.",
+    ],
+    tags: ["React.js", "TypeScript", "Tailwind CSS", "Spring Boot", "Spring Security", "JWT", "Hibernate", "JPA", "MySQL", "Axios"],
     href: "#",
   },
   {
